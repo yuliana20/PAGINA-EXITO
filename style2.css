@@ -1,0 +1,998 @@
+*{padding: 0%; margin: 0%;}
+body{overflow-x:hidden;}
+.header{
+    display: inline-block;
+    width:100% ;
+    height: 120px;
+    background-color: rgb(184, 8, 8);
+}
+.header p{
+    font-size: 25pt;
+    color: white;
+    position: relative;
+    left: 180px;
+    bottom: 60px;
+    opacity: 0.7;
+    font-style:italic;
+}
+.header  p1{
+    font-size: 10pt;
+    color: white;
+    opacity: 0.7;
+    font-style:italic ;
+    position: relative;
+    top: -60px;
+    left: 600px;
+}
+.uno{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    position: relative;
+    left: 600px;
+    top: 25px;
+    margin: 5px;
+    border-radius:3px ;
+}
+.dos{
+    background-color: rgb(255, 0, 0);
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: -24px;
+    left: -5px;
+    margin-left: 3px;
+    border-top-left-radius:20px ;
+}
+.dos p{
+    position: relative;
+    color: white;
+    font-size: 18pt;
+    top: 5px;
+    left: 2px;
+    font-style: normal;
+}
+.dos h3{
+    position: relative;
+    color: rgb(255, 230, 2);
+    left: 60px;
+    top: -30px;
+    font-size: 25pt;
+}
+.uno p2{
+    position: absolute;
+    color: black;
+    font-size: 15pt;
+    left: -230px;
+    bottom: 20px;
+}
+.tres{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    left: 45px;
+    top: 5px;
+    font-size: 8pt;
+    color: white;
+}
+.hey{
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(50% 8%, 61% 35%, 92% 36%, 68% 57%, 74% 85%, 50% 70%, 25% 85%, 32% 57%, 9% 36%, 39% 35%);
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left:595px;
+    bottom: 515px;
+}
+#des{
+    z-index: 1;
+    font-size: 15pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 18px;
+    left: 19px;
+}
+#letra{
+    z-index: 1;
+    font-size: 6pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 38px;
+    left: 19px;
+}
+.hey2{
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(50% 8%, 61% 35%, 92% 36%, 68% 57%, 74% 85%, 50% 70%, 25% 85%, 32% 57%, 9% 36%, 39% 35%);
+    background-color: red;
+    position: absolute;
+    left:679px;
+    bottom: 517px;
+}
+#des2{
+    z-index: 1;
+    font-size: 15pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 18px;
+    left: 19px;
+}
+#letra2{
+    z-index: 1;
+    font-size: 6pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 38px;
+    left: 19px;
+}
+#tex2{
+    z-index: 1;
+    font-size: 6pt;
+    color: black;
+    position: absolute;
+    font-style: normal;
+    left: 28px;
+    top: 53px;
+}
+#text2{
+    z-index: 1;
+    font-size: 6pt;
+    color: black;
+    position: absolute;
+    font-style: normal;
+    left: 10px;
+    top:61px ;
+    width: 100px;
+    
+}
+.hey3{
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(50% 8%, 61% 35%, 92% 36%, 68% 57%, 74% 85%, 50% 70%, 25% 85%, 32% 57%, 9% 36%, 39% 35%);
+    background-color: red;
+    position: absolute;
+    left:764px;
+    bottom: 517px;
+}
+#des3{
+    z-index: 1;
+    font-size: 15pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 18px;
+    left: 19px;
+}
+#letra3{
+    z-index: 1;
+    font-size: 6pt;
+    color: rgb(255, 230, 2);;
+    position: absolute;
+    font-style: normal;
+    top: 38px;
+    left: 19px;
+}
+#tex3{
+    z-index: 1;
+    font-size: 6pt;
+    color: black;
+    position: absolute;
+    font-style: normal;
+    left: 25px;
+    top: 58px;
+}
+.hey4{
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(50% 8%, 61% 35%, 92% 36%, 68% 57%, 74% 85%, 50% 70%, 25% 85%, 32% 57%, 9% 36%, 39% 35%);
+    background-color: red;
+    position: absolute;
+    left:848px;
+    bottom: 512px;
+}
+.circle{
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgb(91, 134, 250);
+    position: absolute;
+    left: 14.6px;
+    top: 20px;
+}
+.circle p{
+    z-index: 1;
+    font-size: 8pt;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    color: black;
+}
+.circle p1{
+    z-index: 1;
+    font-size: 8pt;
+    width: 32px;
+    position: absolute;
+    left: 7px;
+    top: 20px;
+    background-color: black;
+}
+.header2{
+    width: 25%;
+    height: 120px;
+    background-color: rgb(255, 234, 0);
+    position: relative;
+    top: -185px;
+    left: 1095px;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius: 30px;
+    border: 5px solid white;
+}
+.header2 img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+}
+.center{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 190px;
+}
+.center h1{
+    position: relative;
+    left: 100px;
+    font-size: 40pt;
+    top: 30px;
+}
+.center h3{
+    position: relative;
+    left: 150px;
+    font-size: 25pt;
+    top: 30px;
+}
+.mercado{
+    background-color: rgb(250, 145, 7);
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    position: relative;
+    left: 900px;
+    bottom: 60px;
+    border-top-right-radius:1000px ;
+    border-bottom-left-radius: 1000px;
+    box-shadow: 10px 1px 10px;
+}
+.mercado p{
+    font-size: 37pt;
+    position: relative;
+    left: 55px;
+    top: 20px;
+    color: yellow;
+    font-style: italic;
+}
+.borde{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border:5px solid black;
+    left: -30px;
+    bottom: -5px;
+    border-radius: 30px;
+    transform: rotate(7deg);
+    border-bottom-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    box-shadow: -10px 1px 10px;
+}
+.g1{
+    background-color: rgb(250, 145, 7);
+    width: 20px;
+    height: 7px;
+    position: relative;
+    left: -50px;
+    bottom: 85px;
+    border-radius: 10px;
+    transform: rotate(30deg);
+
+}
+.g2{
+    background-color: rgb(250, 145, 7);
+    width: 18px;
+    height: 7px;
+    position: relative;
+    left: -40px;
+    bottom: 105px;
+    border-radius: 10px;
+    transform: rotate(60deg);
+}
+.ge1{
+    background-color: rgb(250, 145, 7);
+    width: 23px;
+    height: 8px;
+    position: relative;
+    left: 305px; 
+    top: 35px;
+    border-radius: 10px;
+    transform: rotate(40deg);
+}
+.ge2{
+    background-color: rgb(250, 145, 7);
+    width: 18px;
+    height: 5px;
+    position: relative;
+    left: 310px; 
+    top: 5px;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+}
+.ge3{
+    background-color: rgb(250, 145, 7);
+    width: 15px;
+    height: 8px;
+    position: relative;
+    left: 285px; 
+    top: 30px;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+}
+.descrip{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 250px;
+    top: -40px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+.descrip p{
+    font-size: 15pt;
+    position: absolute;
+    width: 200px;   
+}
+#c{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+.estrella{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    clip-path: polygon(50% 8%, 61% 35%, 92% 36%, 68% 57%, 74% 85%, 50% 70%, 25% 85%, 32% 57%, 9% 36%, 39% 35%);
+    top: 250px;
+}
+.grande{
+    position: relative;
+    bottom: 200px;
+    left: 35px;
+    width: 500px;
+    height: 380px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.grande img{
+    position: relative;
+    left: 70px;
+    width: 400px;
+    height: 300px;
+    border-radius: 200px;
+    border: 3px solid rgb(243, 178, 0);
+}
+.hola{
+    z-index: 1;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50px;
+    top: -30px;
+}
+.precio{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    left: 280px;
+    bottom: 70px;
+}
+.precio p{
+    position: relative;
+    left: 90px;
+    top: 5px;
+    font-size: 15pt;
+}
+.precios{
+    width: 210px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    left: 250px;
+    bottom: 70px;
+}
+.precios p{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-size: 15pt;
+}
+.cuadro{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 120px;
+    bottom: 3.6px;
+    transform: rotate(50deg);
+    background-color: rgb(204, 16, 3);
+}
+.rojo{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(204, 16, 3);
+    margin:5px;
+    position: relative;
+    left: 220px;
+    bottom: 210px;
+}
+.rojo p{
+    position: relative;
+    left: 10px;
+    font-size: 13pt;
+    top: 5px;
+}
+.pre1{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    bottom: -2px;
+    left: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.pre1 p{
+    background-color: rgb(52, 52, 247);
+}
+.pre1 p1{
+    background-color: black;
+    color: blanchedalmond;
+}
+.cu{
+    width:12px;
+    height: 12px;
+    background-color: black;
+    position: absolute;
+    left: 54px;
+    transform: rotate(45deg);
+    top: 21px;
+}
+.cua{
+    width:12px;
+    height: 12px;
+    background-color:rgb(52, 52, 247);
+    position: absolute;
+    left: 54px;
+    transform: rotate(45deg);
+    top: 3px;
+}
+.medi{
+    display: flex;
+    float: right;
+    position: relative;
+    top: -200px;
+    width: 800px;
+    height: 380px;
+}
+.median{
+    width: 235px;
+    height: 400px;
+    position: relative;
+    clear: both;
+    margin-left: 10px;
+    left: 12px;
+    border: 1px solid rgb(243, 178, 0);
+}
+.median p1{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.median p2{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.median p3{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.median img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    clear: both;
+    left: 50px;
+    top: 5px;
+    border-radius: 20px;
+}
+.info{
+    position: relative;
+
+}
+.precio2 {
+    width: 180px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.precio2 p{
+    position: relative;
+    left: 90px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.precios2{
+    width: 205px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: -5px;
+}
+.precios2 p{
+    position: relative;
+    left: 22px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+
+.rojo2{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(204, 16, 3);
+    margin:5px;
+    position: relative;
+    top: -70px;
+    left: -7px;
+}
+.rojo2 p{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.ultimo{
+    background-color:rgb(52, 52, 247);
+    width: 50px;
+    height: 18px;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.ul{
+    width: 13px;
+    height: 13px;
+   position: relative;
+   left: 43px;
+   top: -15px;
+    transform: rotate(45deg);
+    background-color: rgb(52, 52, 247);;
+}
+.timo{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 43px;
+    top: -15px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+.ultimos{
+    background-color: black;
+    width: 50px;
+    height: 18px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.cuadro2{
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    left: 89px;
+    bottom: 3.6px;
+    transform: rotate(50deg);
+    background-color: rgb(204, 16, 3);    
+}
+.segundo{  
+    width: 100%;
+    height:380px;
+    position: relative;
+    top: -300px;
+}
+.imagen{
+    width: 235px;
+    height: 400px;
+    position: relative;
+    right: 47px;
+    display: flex;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid rgb(243, 178, 0);
+}
+#img{
+    border: 1px solid rgb(201, 4, 4);;
+}
+.combi{
+    width: 238px;
+    height: 40px;
+    background-color: rgb(201, 4, 4);
+    position: absolute;
+    top: -40px;
+    left: -2px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.combi p{
+    color: white;
+    font-size: 30pt;
+    position: relative;
+    left: 40px;
+    top: 1px;
+}
+.imagen p1{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.imagen p2{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.imagen p3{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.imagen p4{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.imagen p5{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+
+.imagen img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+    border-radius: 20px;
+}
+.precio3{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.precio3 p{
+    position: relative;
+    left: 90px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.precios3{
+    width: 205px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: -5px;
+}
+.precios3 p{
+    position: relative;
+    left: 22px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.rojo3{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(204, 16, 3);
+    margin:5px;
+    position: relative;
+    top: -70px;
+    left: -7px;
+}
+.rojo3 p{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.ultimo3{
+    z-index: 1;
+    background-color:rgb(52, 52, 247);
+    width: 50px;
+    height: 18px;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.ul3{
+    width: 13px;
+    height: 13px;
+   position: relative;
+   left: 43px;
+   top: -15px;
+    transform: rotate(45deg);
+    background-color: rgb(52, 52, 247);;
+}
+.timo3{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 43px;
+    top: -15px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+.ultimos3{
+    z-index: 1;
+    background-color: black;
+    width: 50px;
+    height: 18px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.cuadro3{
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    left: 89px;
+    bottom: 3.6px;
+    transform: rotate(50deg);
+    background-color: rgb(204, 16, 3);  
+}
+.tercero{
+    width: 100%;
+    height:380px;
+    position: relative;
+    top: -270px;
+}
+.ima{
+    width: 235px;
+    height: 400px;
+    position: relative;
+    right: 47px;
+    display: flex;
+    float: right;
+    margin-left: 10px;
+    border: 1px solid rgb(243, 178, 0);
+}
+.ima img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+    border-radius: 20px;
+}
+.precio4{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.precio4 p{
+    position: relative;
+    left: 90px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.rojo4{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(204, 16, 3);
+    margin:5px;
+    position: relative;
+    top: -70px;
+    left: -7px;
+}
+.rojo4 p{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.cuadro4{
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    left: 89px;
+    bottom: 3.6px;
+    transform: rotate(50deg);
+    background-color: rgb(204, 16, 3);  
+}
+.precios4{
+    width: 205px;
+    height: 30px;
+    background-color: rgb(226, 192, 0);
+    margin:5px;
+    position: relative;
+    top: 70px;
+    left: -5px;
+}
+.precios4 p{
+    position: relative;
+    left: 22px;
+    top: 5px;
+    font-size: 15pt;
+    clear: both;
+}
+.ima p1{
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 187px;
+    left: 10px;
+    font-size: 15pt;
+}
+.rectangulo {
+    position: absolute;
+    top: 261px;
+    left: 68px;
+    transform: rotate(20deg);
+	width: 20px;
+    height: 80px;
+    background-color: rgb(235, 2, 2);
+}
+.recta2{
+    position: absolute;
+    top:314px;
+    left:37px;
+    transform: rotate(-50deg);
+    width: 15px;
+    height: 80px;
+    background-color:rgb(235, 2, 2);;
+}
+.recta3{
+    position: absolute;
+    top:339px;
+    left: 48px;
+    transform: rotate(15deg);
+    width: 15px;
+    height: 80px;
+    background-color: rgb(226, 5, 5);;
+}
+.recta4{
+    position: absolute;
+    top: 363px;
+    left: 103px;
+    transform: rotate(-57deg);
+    width: 15px;
+    height: 80px;
+    background-color: rgb(235, 2, 2);;
+}
+.ultimo4{
+    z-index: 1;
+    background-color:rgb(52, 52, 247);
+    width: 50px;
+    height: 18px;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.ul4{
+    width: 13px;
+    height: 13px;
+   position: relative;
+   left: 43px;
+   top: -15px;
+    transform: rotate(45deg);
+    background-color: rgb(52, 52, 247);;
+}
+.timo4{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 43px;
+    top: -15px;
+    transform: rotate(45deg);
+    background-color: black;
+}
+.ultimos4{
+    z-index: 1;
+    background-color: black;
+    width: 50px;
+    height: 18px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -40px;
+}
+.linea{
+    width: 90%;
+    height: 2px;
+    background-color: yellow;
+    position: relative;
+    left: 80px;
+    bottom: 210px;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 240px;
+}
+.footer p{
+    font-size: 12pt;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+
+
